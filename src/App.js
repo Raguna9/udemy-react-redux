@@ -1,6 +1,7 @@
 import 'bulma/css/bulma.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Section3 from './section-3/Section3';
+import Section4 from './section-4/Section4';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
 
 
             <Route path="/section3" element={<Section3 />} />
+            <Route path="/section4" element={<Section4 />} />
           </Route>
         </Routes>
       </BrowserRouter>
